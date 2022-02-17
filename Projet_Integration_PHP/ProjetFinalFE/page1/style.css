@@ -1,0 +1,247 @@
+    
+    
+    /* CSS À MOI */
+    
+    * {
+        box-sizing: border-box;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-right: 5px;
+        margin-left:5px;
+    }
+    
+    header{
+        display:flex;
+        justify-content:space-between;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding-bottom:3%;
+        padding-top:3%;
+    }
+    
+    .menu_burger span{
+        padding-right:15px;
+    }
+    
+    button {
+        
+        border: 1px solid transparent;
+        
+        border-radius: 5px;
+        
+        text-decoration: none;
+        
+        color: black;
+        
+        background-color: white;
+        
+        display: inline-block;
+        
+        line-height: 1;
+        
+        font-family: arial;
+        
+        font-size: 16px;
+        
+        text-align: center;
+        
+        cursor: pointer;
+        
+    }
+    
+    .motcache{
+        display:none;
+    }
+    
+    button.bouton_panier{
+        margin-left:5px;
+    }
+    
+    .general{
+        display:grid;
+    }
+    
+    img{
+        max-width:100%;
+    }
+    
+    .general h1{
+        text-align:center;
+        margin-top: 50px;
+        font-size: 130%;
+    }
+    
+    .fildariane{
+        padding-left:8%;
+        margin-top:3%;
+    }
+    
+    .grille_produits{
+        max-width:400px;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top:30px;
+        margin-bottom:80px;
+        margin-top: 5%;
+    }
+
+    .produit img{
+        margin-top: 5%;
+        object-fit:cover;
+    }
+    
+    p.bold{
+        font-weight:bold;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .PlusDeProduits{
+        text-align:center;
+        margin-top:20px;
+    }
+
+    .PlusDeProduits a{
+        
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight:bold;
+        text-decoration: none;
+        background-color: #ffffff;
+        color: black;
+        padding: 15px 30px 15px 30px;
+        border-top: 1px solid #939393;
+        border-right: 1px solid #939393;
+        border-bottom: 1px solid #939393;
+        border-left: 1px solid #939393;
+        border-radius:5px;
+    }
+    
+    .logos{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        width: 15%;
+        margin-top:40%;
+        margin-bottom: 20%;
+
+    }
+    
+    footer{
+        text-align:center;
+        padding-top:5%;
+        border-top: 1px solid #939393;
+        padding-bottom:5%;
+    }
+
+    footer p{
+        color:#939393;
+        line-height:1.4em;
+    }
+
+
+    @media (min-width:494px){
+        .grille_produits{
+            max-width:600px;
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:30px;
+        }
+        button{
+            border:1px solid gray;
+            padding: 5px 10px;
+        }
+        .motcache{
+            display:inline;
+            font-weight:bold;
+        }
+        .fildariane{
+            padding-left:15%;
+        }
+        
+        .logos{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-around;
+            width: 15%;
+            margin-top:20%;
+        }
+    }
+    
+    @media (min-width:1081px){
+        .grille_produits{
+            max-width:800px;
+            margin-right:auto;
+            margin-left:auto;
+            grid-template-columns:1fr 1fr 1fr;
+            gap:60px;
+        }
+        
+        button{
+            border:1px solid gray;
+            padding: 5px 10px;
+        }
+        
+        .motcache{
+            display:inline;
+            font-weight:bold;
+        }
+        
+        .fildariane{
+            padding-left:15%;
+        }
+        
+        .logos{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-around;
+            width: 15%;
+            margin-top:20%;
+        }
+        
+    }
+    
+    
+    @media (min-width:1600px){
+        .fildariane{
+            padding-left:25%;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
